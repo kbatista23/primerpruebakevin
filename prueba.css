@@ -1,0 +1,182 @@
+body {
+	width: 100%;
+}
+
+* {
+	font-family: cursive;
+}
+
+header{
+	position: absolute;
+}
+
+#menu {
+	width: 100%;
+	height: 8em;
+	margin-left: -0.5em;
+	margin-top: -7em;
+	background: -moz-linear-gradient(right, #525452, #000, #525452);
+	background: linear-gradient(to right, #525452, #000, #525452);
+	position: fixed;
+}
+
+#opcion {
+	padding:4em;
+	margin:0;
+	list-style:none;
+	height:5em;
+	position:fixed;
+	z-index:5;
+	text-align:center;
+	position: !important;
+}
+
+#opcion li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#opcion li {
+	display:block;
+	float:left;
+	height:2em;
+	margin-top: 2em;
+	border-radius: 1.8em 0 1.8em 0;
+	color:white;
+
+	font-family:cursive;
+	font-size:15px; /* Tamaño de la fuente */
+	font-weight:bold;
+	padding:0 0.5em 0 0.5em;
+	cursor:pointer;                       
+	text-align:center;
+}
+
+#opcion li:hover {
+	background: -moz-linear-gradient(right, #1F9514, #29F717);
+	background: linear-gradient(to right, #1F9514 , #29F717);
+}
+
+#logo {
+	font-size: 1.5em;
+	background: -webkit-linear-gradient(left, #1F9514, #29F717);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background: -moz-linear-gradient(left, #1F9514, #29F717);
+	float: right;
+	margin-top: 1.5em;
+	margin-right: 10em;
+}
+
+#img{
+	background-image: url(http://i0.wp.com/presidencia.go.cr/wp-content/uploads/2015/10/home-office-336378_1920.jpg?fit=1170%2C9999);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 45em;
+	margin-left: -0.5em;
+	margin-top: 7em;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+#titulo{
+	text-align: center;
+}
+
+#titulo span{
+	font-size: 4em;
+	color: #FFF;
+}
+
+#services{
+	background: -moz-linear-gradient(right, #000, #525452, #000);
+	background: linear-gradient(to right, #000, #525452, #000);
+	width: 100%;
+	height: 25em;
+	margin-left: -0.5em;
+}
+
+#deta-servicios{
+	height: 20em;
+	width: 100%;
+}
+
+#desa-web{
+	margin-left: 5em;
+	position: absolute;
+}
+
+#desa-web span{
+	color: #1F9514;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#desa-web div{
+	width: 15em;
+	height: 12em;
+	border: 1px solid #1F9514;
+	background-color: #FFF;
+	border-radius: 2em;
+	padding-left: 0.5em;
+}
+
+#app-web{
+	margin-left: 33em;
+	margin-top: -1.5em;
+	position: absolute;
+}
+
+#app-web span{
+	color: #1F9514;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#app-web div{
+	width: 15em;
+	height: 12em;
+	border: 1px solid #1F9514;
+	margin-left: 0.5em;
+	background-color: #FFF;
+	border-radius: 2em;
+	padding-left: 0.5em;
+}
+
+#mant-web{
+	margin-left: 60em;
+	margin-top: -3em;
+	position: absolute;
+}
+
+#mant-web span{
+	color: #1F9514;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#mant-web div{
+	width: 15em;
+	height: 12em;
+	margin-left: 1.5em;
+	border: 1px solid #1F9514;
+	background-color: #FFF;
+	border-radius: 2em;
+	padding-left: 0.3em;
+}
+
+#mantenimiento{
+	background-image: url(http://lomascuarentaycinco.com/wp-content/uploads/2014/05/CREAR-UNA-WEB.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 40em;
+	margin-left: -0.5em;
+	margin-top: 7em;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
